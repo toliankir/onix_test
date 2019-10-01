@@ -95,35 +95,29 @@ footer {
         color: black;
         font-weight: 600;
         font-size: 1.5rem;
-
-        &::before {
+        &::before{
             position: absolute;
             content: '';
-
             @media @xs {
                 top: 15%;
                 height: 63%;
             }
-
             top:20%;
             left: -10%;
             height: 60%;
-            border-left: 3px solid @pink-color;
+            border-left: 4px solid @pink-color;
         }
-
-        &::after {
+        &::after{
             position: absolute;
             content: '';
-            top: 20%;
-
+            top:20%;
             @media @xs {
                 top: 15%;
                 height: 63%;
             }
-
             right: -10%;
             height: 60%;
-            border-left: 3px solid @pink-color;
+            border-left: 4px solid @pink-color;
         }
     }
 

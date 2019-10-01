@@ -83,7 +83,7 @@ footer {
   top: 20%;
   left: -10%;
   height: 60%;
-  border-left: 3px solid #ff359e;
+  border-left: 4px solid #ff359e;
 }
 @media screen and (max-width:768px) {
   .container-header .logo::before {
@@ -97,7 +97,7 @@ footer {
   top: 20%;
   right: -10%;
   height: 60%;
-  border-left: 3px solid #ff359e;
+  border-left: 4px solid #ff359e;
 }
 @media screen and (max-width:768px) {
   .container-header .logo::after {
