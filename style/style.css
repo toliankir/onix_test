@@ -58,6 +58,9 @@ section.header .header-content nav a {
   font-weight: 600;
   font-size: 1rem;
 }
+section.header .header-content nav a:not(:last-child) {
+  margin-right: 1rem;
+}
 section.header .header-content nav a:hover {
   border-bottom: 2px solid #ff359e;
 }
@@ -79,21 +82,20 @@ section.main_image .frame-box {
   box-shadow: 40px 40px 20px 0px rgba(0, 0, 0, 0.1);
   left: 0;
   bottom: -10%;
-  min-width: 600px;
   padding: 4vw;
   z-index: 1;
 }
 @media screen and (min-width: 1401px) {
   section.main_image .frame-box h4 {
     font-weight: 500;
-    font-size: 2.5vw;
+    font-size: calc(3.75vw);
     padding: 0;
     margin: 0;
     text-align: center;
   }
   section.main_image .frame-box p {
     text-align: center;
-    font-size: 1.25vw;
+    font-size: calc(1.25vw);
     font-weight: 500;
     margin: 3vw 0 0 0;
   }
@@ -101,14 +103,14 @@ section.main_image .frame-box {
 @media screen and (max-width: 1400px) {
   section.main_image .frame-box h4 {
     font-weight: 500;
-    font-size: 3vw;
+    font-size: calc(4.75vw);
     padding: 0;
     margin: 0;
     text-align: center;
   }
   section.main_image .frame-box p {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: calc(1.58333333vw);
     font-weight: 500;
     margin: 3vw 0 0 0;
   }

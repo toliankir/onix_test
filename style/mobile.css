@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+section.header {
+  height: 50px;
+  min-height: 50px;
+  background-color: white;
+}
+section.header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.header .header-content .menu-button {
+  color: black;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  line-height: 50px;
+}
+section.header .header-content .logo {
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+section.header .header-content nav {
+  display: none;
+}
+.main-image {
+  background-color: #eeeeee;
+  background-image: url("../assets/images/Start1.jpg");
+  background-size: 200% auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  min-height: 50%;
+  flex-grow: 1;
+  min-height: 150px;
+}
+.main-image-content {
+  width: 100%;
+}
+.main-image .frame-box {
+  position: absolute;
+  width: 90%;
+  background-color: white;
+  box-shadow: 40px 40px 20px 0px rgba(0, 0, 0, 0.1);
+  left: 0;
+  bottom: -10%;
+  padding: 5vw;
+  z-index: 1;
+}
+.main-image .frame-box h4 {
+  font-weight: 500;
+  font-size: 6vw;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.main-image .frame-box p {
+  text-align: left;
+  font-size: 4vw;
+  font-weight: 500;
+  margin: 3vw 0 0 0;
+}
+.footer {
+  height: 40%;
+  min-height: 150px;
+  background-color: white;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer .footer-content h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.content {
+  width: 95%;
+  height: 100%;
+}
