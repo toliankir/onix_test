@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <section class="header">
-        <div class="content header-content">
-            <div class="menu-button">&#9776;</div>
+    <header>
+        <div class="container container-header">
+            <div class="menu-button"><img src="./assets/images/drawing2.svg" alt="Dropdown menu"></div>
             <div class="logo">LONDON</div>
             <nav>
                 <a href="#">portfolio</a>
@@ -20,21 +21,33 @@
                 <a href="#">blog</a>
                 <a href="#">contact</a>
             </nav>
-            </header>
-    </section>
-    <section class="main-image">
-        <div class="content main-image-content">
-            <div class="frame-box">
+        </div>
+    </header>
+    <div class="main-image">
+        <div class="main-image-background"></div>
+        <div class="container container-main-image">
+            <div class="frame-box frame-box-large">
                 <h4>A modern Theme for Designers.</h4>
                 <p>We are London & we create minimalist designs and branding.</p>
             </div>
+            <div class="frame-box frame-box-mobile">
+                <h4>A Frame Box for web.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit animi, voluptate sapiente,
+                    assumenda dignissimos earum explicabo natus, repudiandae veniam voluptatem recusandae.</p>
+                <button>Read More</button>
+            </div>
         </div>
-    </section>
-    <section class="footer">
-        <div class="content footer-content">
+    </div>
+    <footer>
+        <div class="container container-footer-large">
             <h3>We are London and we create efficient</h3>
         </div>
-    </section>
+        <div class="container container-footer-mobile">
+            <img src="./assets/images/drawing1.svg" alt="Menu">
+            <h3>A Frame box for web.</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis ipsam recusandae at.</p>
+        </div>
+    </footer>
 </body>
 
 </html>

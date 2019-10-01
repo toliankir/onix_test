@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="9.061mm" height="9.061mm" version="1.1" viewBox="0 0 9.061 9.061" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-147.41 -149.59)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel">
+  <rect transform="rotate(90)" x="149.75" y="-149.68" width="2.1136" height="2.1136" stroke-width=".3175" style="paint-order:fill markers stroke"/>
+  <rect transform="rotate(90)" x="149.75" y="-156.31" width="2.1136" height="2.1136" stroke-miterlimit="1" stroke-width=".3175" style="paint-order:fill markers stroke"/>
+  <g stroke-width=".3175">
+   <rect transform="rotate(90)" x="149.75" y="-153" width="2.1136" height="2.1136" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-149.68" y="-151.87" width="2.1136" height="2.1136" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-149.68" y="-158.5" width="2.1136" height="2.1136"/>
+   <rect transform="scale(-1)" x="-149.68" y="-155.18" width="2.1136" height="2.1136" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-155.84" y="-158.03" width="1.1742" height="1.1742" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-152.85" y="-155.04" width="1.8318" height="1.8318" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-155.96" y="-154.83" width="1.4091" height="1.4091" style="paint-order:fill markers stroke"/>
+   <rect transform="scale(-1)" x="-152.64" y="-158.14" width="1.4091" height="1.4091" style="paint-order:fill markers stroke"/>
+  </g>
+ </g>
+</svg>
