@@ -64,7 +64,7 @@ section.header .header-content nav a:not(:last-child) {
 section.header .header-content nav a:hover {
   border-bottom: 2px solid #ff359e;
 }
-section.main_image {
+section.main-image {
   background-color: #eeeeee;
   background-image: url("../assets/images/Start1.jpg");
   background-size: 100% auto;
@@ -75,7 +75,7 @@ section.main_image {
   flex-grow: 1;
   min-height: 350px;
 }
-section.main_image .frame-box {
+section.main-image .frame-box {
   position: absolute;
   width: 50%;
   background-color: white;
@@ -85,30 +85,30 @@ section.main_image .frame-box {
   padding: 4vw;
   z-index: 1;
 }
-@media screen and (min-width: 1401px) {
-  section.main_image .frame-box h4 {
+@media screen and (min-width: 1301px) {
+  section.main-image .frame-box h4 {
     font-weight: 500;
     font-size: calc(3.75vw);
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  section.main_image .frame-box p {
+  section.main-image .frame-box p {
     text-align: center;
     font-size: calc(1.25vw);
     font-weight: 500;
     margin: 3vw 0 0 0;
   }
 }
-@media screen and (max-width: 1400px) {
-  section.main_image .frame-box h4 {
+@media screen and (max-width: 1300px) {
+  section.main-image .frame-box h4 {
     font-weight: 500;
     font-size: calc(4.75vw);
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  section.main_image .frame-box p {
+  section.main-image .frame-box p {
     text-align: center;
     font-size: calc(1.58333333vw);
     font-weight: 500;
@@ -130,13 +130,13 @@ section.footer .content h3 {
   font-size: 2.5rem;
   font-weight: 500;
 }
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1301px) {
   .content {
     width: 75%;
     height: 100%;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1300px) {
   .content {
     width: 95%;
     height: 100%;
